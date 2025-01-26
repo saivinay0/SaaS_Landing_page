@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-dom'] // Add this to exclude 'react-dom' from bundling
+      external: ['react-dom/client'] // Add this to exclude 'react-dom' from bundling
     }
   }
 });
