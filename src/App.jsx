@@ -3,6 +3,7 @@ import Features from "./section/Features.jsx";
 import Header from "./section/Header.jsx";
 import Hero from "./section/Hero.jsx";
 import Pricing from "./section/Pricing.jsx";
+import Testimonials from "./section/Testimonials.jsx";
 const App = () => {
   return (
     <main className="overflow-hidden">
@@ -11,6 +12,7 @@ const App = () => {
       <Features />
       <Pricing />
       <Faq />
+      <Testimonials />
     </main>
   );
 };
